@@ -18,6 +18,15 @@
 nav h2{
     color: #4E47FF;
 }
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
 
 /* Banner style */
 .banner{
@@ -36,15 +45,7 @@ nav h2{
     font-weight: 900;
     font-size: 34px;
 }
-.btn-primary{
-    background-color: #4E47FF;
-    font-weight: bold;
-    color: white;
-    padding: 12px 36px;
-    border-radius: 10px;
-    font-size: 16px;
-    border: none;
-}
+
 .heading h1{
     font-weight: bold;
     font-size: 65px;
@@ -53,4 +54,24 @@ nav h2{
     text-align: center;
     margin: 100px 500px;
    
+}
+
+/* Action style */
+.action{
+    display: flex;
+    justify-content: space-around;
+    margin: 141px 0;
+}
+.action-item{
+    width: 500px;
+}
+.action h3{
+    font-size: 42px;
+}
+.action p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action img{
+    border-radius: 50px;
 }
