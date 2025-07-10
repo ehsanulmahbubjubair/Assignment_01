@@ -1,7 +1,7 @@
 
 
 
-.inter-banner-logo {
+.inter-banner-logo ,.productive-user h1{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -74,4 +74,36 @@ nav h2{
 }
 .action img{
     border-radius: 50px;
+}
+/* productive-user style */
+.productive-user{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0 250px;
+    border-radius: 25px;
+    padding: 50px 140px;
+    width: 1100px;
+   
+   
+   
+}
+.productive-user h3{
+    font-size: 38px;
+}
+.productive-user h1 {
+    font-size: 80px;
+    color: #4E47FF;
+    
+}
+.productive-user p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+   
+}
+.productive-card{
+    display: flex;
+    justify-content: space-around;
+   
+    
 }
