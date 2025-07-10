@@ -1,7 +1,7 @@
 
 
 
-.inter-banner-logo ,.productive-user h1{
+.inter-banner-logo ,.productive-user span{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -26,6 +26,10 @@ nav h2{
     border-radius: 10px;
     font-size: 16px;
     border: none;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* Banner style */
@@ -65,9 +69,7 @@ nav h2{
 .action-item{
     width: 500px;
 }
-.action h3{
-    font-size: 42px;
-}
+
 .action p{
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
@@ -79,19 +81,18 @@ nav h2{
 .productive-user{
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
-    margin: 0 250px;
+    margin: 0 auto;
     border-radius: 25px;
     padding: 50px 140px;
-    width: 1100px;
+    max-width: 1140px;
    
    
    
 }
-.productive-user h3{
-    font-size: 38px;
-}
-.productive-user h1 {
+
+.productive-user span {
     font-size: 80px;
+    font-weight: bolder;
     color: #4E47FF;
     
 }
@@ -104,6 +105,46 @@ nav h2{
 .productive-card{
     display: flex;
     justify-content: space-around;
+}
+/* review style */
+.review{
+    margin: 150px 150px;
    
+}
+.review h3{
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
     
+}
+.reviews{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0 rgba(242, 237, 237, 1);
+    border-radius: 15px;
+    height: 220px;
+    width: 350px;
+    margin: 0 auto;
+}
+.reviews-title{
+    font-size: 22px;
+}
+.img-style{
+    border-radius: 50%;
+}
+#reviews-member{
+    display: flex;
+    align-items: center;
+}
+.img-title{
+    margin-left: 10px;
+}
+.img-title{
+    color: #757575;
+    font-weight: bold;
+}
+.img-title span{
+    color: #B3B3B3;
+    font-weight: 500;
 }
